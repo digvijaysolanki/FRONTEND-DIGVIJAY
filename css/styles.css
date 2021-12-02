@@ -1,0 +1,110 @@
+.carousel img {
+    height: 350px; 
+    object-fit: cover;
+  }
+
+  .sticky {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.rounded-circle {
+
+    margin-top:10px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #0385f9 !important;
+    border-color: none !important;
+}
+
+.border-light {
+    background-color: #f1eaea !important;
+}
+
+.footer-margin {
+    color: #202003;
+    background-color: #39565a;
+}
+
+
+.card{
+
+    margin-top:20px;
+    background-color: #f1eaea !important;
+}
+
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 50px;
+  }
+  .blog{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
+  
+  .blog:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .blog h3{
+    font-weight: 600;
+  }
+  
+  .blog img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+  }
+  
+  .blog-1{
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .blog-2{
+     background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .blog-3{
+     background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  @media(max-width: 990px){
+    .blog{
+      margin: 20px;
+    }
+  } 
+
+
+  .contactimage{
+      position: relative;
+      left:80px;
+      background-repeat: no-repeat;
+  }
+
+  .aboard{
+      position: relative;
+      right:90px;
+  }
