@@ -1,3 +1,5 @@
+// add this file in css folder or change the location of this file in index.html
+
 .carousel img {
     height: 350px; 
     object-fit: cover;
